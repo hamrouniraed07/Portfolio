@@ -1,28 +1,18 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 
-// Icons
 import Python from "../../Assets/TechIcons/Python.svg";
-import Javascript from "../../Assets/TechIcons/Javascript.svg";
-import Typescript from "../../Assets/TechIcons/Typescript.svg";
 import Node from "../../Assets/TechIcons/Node.svg";
 import ReactIcon from "../../Assets/TechIcons/React.svg";
 import Angular from "../../Assets/Images/angular.png";
-import Nextjs from "../../Assets/TechIcons/Next.svg";
 import Mongo from "../../Assets/TechIcons/Mongo.svg";
-import Redis from "../../Assets/TechIcons/Redis.svg";
 import Docker from "../../Assets/TechIcons/Docker.svg";
 import Kubernates from "../../Assets/TechIcons/Kubernates.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
 import SQL from "../../Assets/TechIcons/SQL.svg";
 import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
 import MUI from "../../Assets/TechIcons/MUI.svg";
-import Firebase from "../../Assets/TechIcons/Firebase.svg";
-import Postman from "../../Assets/TechIcons/Postman.svg";
 import Kafka from "../../Assets/TechIcons/Kafka.svg";
-import Java from "../../Assets/TechIcons/Java.svg";
-
-// ML Logos
 import Tensorflow from "../../Assets/TechIcons/Tensorflow.png";
 import Keras from "../../Assets/TechIcons/Keras.png";
 import Pandas from "../../Assets/TechIcons/Pandas.png";
@@ -62,10 +52,7 @@ const categories = {
     { icon: Matplotlib, label: "Matplotlib" },
     { icon: Seaborn, label: "Seaborn" },
   ],
-  Tools: [
-    { icon: Firebase, label: "Firebase" },
-    { icon: Postman, label: "Postman" },
-  ],
+  
 };
 
 function Techstack() {

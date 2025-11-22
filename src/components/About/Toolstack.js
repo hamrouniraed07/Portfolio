@@ -5,6 +5,7 @@ import Jupyter from "../../Assets/TechIcons/Jupyter.png";
 import Brave from "../../Assets/Images/brave.svg";
 import Ubuntu from "../../Assets/Images/ubuntu.png";
 import Collab from "../../Assets/Images/collab.png";
+import Postman from "../../Assets/TechIcons/Postman.svg";
 
 function Toolstack() {
   return (
@@ -17,6 +18,7 @@ function Toolstack() {
         <img src={Brave} alt="Chrome" className="tech-icon-images" />
         <div className="tech-icons-text">Brave</div>
       </Col>
+      
       <Col xs={4} md={2} className="tech-icons ">
         <img src={vsCode} alt="vsCode" className="tech-icon-images" />
         <div className="tech-icons-text">Vs Code</div>
@@ -30,6 +32,10 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons ">
         <img src={Collab} alt="go" className="tech-icon-images" />
         <div className="tech-icons-text">Goole Collab</div>
+      </Col>
+       <Col xs={4} md={2} className="tech-icons ">
+        <img src={Postman} alt="Chrome" className="tech-icon-images" />
+        <div className="tech-icons-text">Postman</div>
       </Col>
     </Row>
   );
