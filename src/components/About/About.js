@@ -4,13 +4,13 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import profileImg from "../../Assets/Images/RAED.jpeg"; // Changez selon votre fichier
 import Toolstack from "./Toolstack";
+
 
 function About() {
   return (
     <>
-      {" "}
       <Particle />
       <Container fluid className="about-section">
         <Container>
@@ -30,10 +30,29 @@ function About() {
             </Col>
             <Col
               md={5}
-              style={{ paddingTop: "120px", paddingBottom: "50px" }}
+              style={{ 
+                paddingTop: "120px", 
+                paddingBottom: "50px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center"
+              }}
               className="about-img"
             >
-              <img src={laptopImg} alt="about" className="img-fluid" />
+              <img 
+                src={profileImg} 
+                alt="Raed Hamrouni" 
+                className="img-fluid" 
+                style={{
+                  borderRadius: "20px",
+                  border: "4px solid #06b6d4",
+                  boxShadow: "0 0 30px rgba(6, 182, 212, 0.5), 0 0 60px rgba(139, 92, 246, 0.3)",
+                  maxWidth: "450px",
+                  width: "100%",
+                  objectFit: "cover",
+                  transform: "translateY(-20px)"
+                }}
+              />
             </Col>
           </Row>
           <h1 className="project-heading">
