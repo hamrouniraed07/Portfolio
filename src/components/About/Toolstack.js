@@ -31,7 +31,7 @@ function Toolstack() {
 
       <Col xs={4} md={2} className="tech-icons ">
         <img src={Collab} alt="go" className="tech-icon-images" />
-        <div className="tech-icons-text">Goole Collab</div>
+        <div className="tech-icons-text">Google Collab</div>
       </Col>
        <Col xs={4} md={2} className="tech-icons ">
         <img src={Postman} alt="Chrome" className="tech-icon-images" />
