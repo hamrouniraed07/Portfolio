@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import profileImg from "../../Assets/Images/RAED.jpeg"; // Changez selon votre fichier
+import profileImg from "../../Assets/Images/ra.jpeg"; // Changez selon votre fichier
 import Toolstack from "./Toolstack";
 
 
