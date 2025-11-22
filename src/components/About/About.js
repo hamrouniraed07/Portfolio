@@ -1,12 +1,13 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import profileImg from "../../Assets/Images/ra.jpeg"; 
 import Toolstack from "./Toolstack";
-
+import pdf from "../../Assets/Cv_Raed_Hamrouni.pdf";
+import { AiOutlineDownload } from "react-icons/ai";
 
 function About() {
   return (
@@ -34,8 +35,10 @@ function About() {
                 paddingTop: "120px", 
                 paddingBottom: "50px",
                 display: "flex",
+                flexDirection: "column",
                 justifyContent: "center",
-                alignItems: "center"
+                alignItems: "center",
+                gap: "25px"
               }}
               className="about-img"
             >
@@ -53,6 +56,38 @@ function About() {
                   transform: "translateY(-20px)"
                 }}
               />
+              
+              {/* Download CV Button */}
+              <Button
+                variant="primary"
+                href={pdf}
+                target="_blank"
+                download
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  gap: "10px",
+                  padding: "12px 30px",
+                  fontSize: "1.1rem",
+                  fontWeight: "600",
+                  borderRadius: "10px",
+                  minWidth: "200px",
+                  boxShadow: "0 8px 25px rgba(6, 182, 212, 0.4)",
+                  transition: "all 0.3s ease"
+                }}
+                onMouseOver={(e) => {
+                  e.currentTarget.style.transform = "translateY(-3px)";
+                  e.currentTarget.style.boxShadow = "0 12px 35px rgba(6, 182, 212, 0.6)";
+                }}
+                onMouseOut={(e) => {
+                  e.currentTarget.style.transform = "translateY(0)";
+                  e.currentTarget.style.boxShadow = "0 8px 25px rgba(6, 182, 212, 0.4)";
+                }}
+              >
+                <AiOutlineDownload style={{ fontSize: "1.3rem" }} />
+                Download CV
+              </Button>
             </Col>
           </Row>
           <h1 className="project-heading">
