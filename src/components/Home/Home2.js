@@ -179,7 +179,7 @@ function Home2() {
                 textAlign: "center",
                 marginBottom: "15px"
               }}>
-                <h3 style={{ color: "#c770f0", fontSize: "2.5em", marginBottom: "5px" }}>4+</h3>
+                <h3 style={{ color: "#c770f0", fontSize: "2.5em", marginBottom: "5px" }}>5+</h3>
                 <p style={{ color: "#a8a8c0", margin: 0 }}>Years in Tech Industry</p>
               </div>
               
