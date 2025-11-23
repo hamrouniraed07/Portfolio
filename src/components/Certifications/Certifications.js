@@ -10,8 +10,7 @@ import cert3 from "../../Assets/Images/Ai_Agents.jpg";
 import cert4 from "../../Assets/Images/IntroductionR.jpg";
 import cert5 from "../../Assets/Images/IntermediateR.jpg";
 import cert6 from "../../Assets/Images/Tydiverse.jpg";
-
-import DatacampLogo from "../../Assets/Images/Datacamp.jpg";
+import DATAcamp from "../../Assets/Images/datacamps.jpeg"
 import IBMLogo from "../../Assets/Images/IBMLOGO.png";
 
 function Certifications() {
@@ -28,31 +27,31 @@ function Certifications() {
       image: cert4,
       organization: "DATACAMP",
       title: "Introduction to R",
-      logo: DatacampLogo
+      logo: DATAcamp
     },
      {
       image: cert5,
       organization: "DATACAMP",
       title: "Intermediate R",
-      logo: DatacampLogo
+      logo: DATAcamp
     },
     {
       image: cert6,
       organization: "DATACAMP",
       title: "Introduction to Tydiverse",
-      logo: DatacampLogo
+      logo: DATAcamp
     },
     {
       image: cert2,
       organization: "DATACAMP",
       title: "Cleaning Data with Generative AI",
-      logo: DatacampLogo
+      logo: DATAcamp
     },
     {
       image: cert3,
       organization: "DATACAMP",
       title: "Introduction to Ai Agents",
-      logo: DatacampLogo
+      logo: DATAcamp
     },
   ];
 
