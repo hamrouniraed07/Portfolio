@@ -6,6 +6,7 @@ import StudyQuiz from "../../Assets/Images/StudyQuiz.png"
 import FootApp from "../../Assets/Images/FootApp.png"
 import TNDB from "../../Assets/Images/TNDB.png"
 import age from "../../Assets/Images/age.jpg"
+import Eduplatform from "../../Assets/Images/Eduplatform.png"
 import Hotel from "../../Assets/Images/Hotel.png"
 
 
@@ -72,6 +73,17 @@ function Projects() {
               title="TNDB - The Movie Database"
               description="TNDB is a full-stack web application designed for managing and exploring a movie database. full-stack web application designed for managing and exploring a movie database. It allows users to sign up, sign in, browse movies by categories, view movie details, add movies to watchlists and favorites, rate movies, and leave reviews. The application features a user-friendly frontend built with vanilla HTML, CSS, and JavaScript, and a robust backend API powered by Node.js, Express, and MongoDB."
               ghLink="https://github.com/hamrouniraed07/TNDB"
+              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Eduplatform}
+              isBlog={false}
+              title="Eduplatform"
+              description="EduPlatform is a full-featured e-learning application where students can discover courses, enroll, leave reviews, and manage their profile through a secure, responsive interface. The Express/MongoDB backend exposes JWT-protected REST APIs, while the React/Vite frontend consumes those services via a centralized authentication context. This monorepo bundles the entire MERN stack (backend + frontend) along with the configuration needed to develop, test, and ship the project quickly."
+              ghLink="https://github.com/hamrouniraed07/EduPlatform_"
               
             />
           </Col>
