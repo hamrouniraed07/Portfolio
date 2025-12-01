@@ -8,7 +8,7 @@ import TNDB from "../../Assets/Images/TNDB.png"
 import age from "../../Assets/Images/age.jpg"
 import Eduplatform from "../../Assets/Images/Eduplatform.png"
 import Hotel from "../../Assets/Images/Hotel.png"
-
+import fitbox from "../../Assets/Images/fitbox.jpeg"
 
 
 function Projects() {
@@ -23,6 +23,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fitbox}
+              isBlog={false}
+              title="Fitbox"
+              description="FitBox is an intelligent fitness and nutrition coaching application powered by AI. It provides personalized workout plans, nutrition advice, and conversational coaching using advanced language models. The system combines physiological calculations, data analysis, and machine learning to deliver science-based fitness recommendations."
+              ghLink = "https://github.com/hamrouniraed07/Fitbox"
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={StudyQuiz}
