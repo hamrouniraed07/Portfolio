@@ -9,6 +9,7 @@ import age from "../../Assets/Images/age.jpg"
 import Eduplatform from "../../Assets/Images/Eduplatform.png"
 import Hotel from "../../Assets/Images/Hotel.png"
 import fitbox from "../../Assets/Images/fitbox.jpeg"
+import foodorder from "../../Assets/Images/FoodOrder.png"
 
 
 function Projects() {
@@ -94,6 +95,16 @@ function Projects() {
               title="Eduplatform"
               description="EduPlatform is a full-featured e-learning application where students can discover courses, enroll, leave reviews, and manage their profile through a secure, responsive interface. The Express/MongoDB backend exposes JWT-protected REST APIs, while the React/Vite frontend consumes those services via a centralized authentication context. This monorepo bundles the entire MERN stack (backend + frontend) along with the configuration needed to develop, test, and ship the project quickly."
               ghLink="https://github.com/hamrouniraed07/EduPlatform_"
+              
+            />
+          </Col>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={foodorder}
+              isBlog={false}
+              title="Food Order App"
+              description="FoodOrder est une application web complète de commande de repas développée avec le stack MERN (MongoDB, Express.js, React, Node.js). Inspirée d'UberEats, elle permet aux utilisateurs de commander des repas auprès de restaurants partenaires avec un système de gestion complet."
+              ghLink="https://github.com/hamrouniraed07/FoodOrder"
               
             />
           </Col>
