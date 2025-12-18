@@ -2,14 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import StudyQuiz from "../../Assets/Images/StudyQuiz.png"
-import FootApp from "../../Assets/Images/FootApp.png"
-import TNDB from "../../Assets/Images/TNDB.png"
-import age from "../../Assets/Images/age.jpg"
-import Eduplatform from "../../Assets/Images/Eduplatform.png"
-import Hotel from "../../Assets/Images/Hotel.png"
-import fitbox from "../../Assets/Images/fitbox.jpeg"
-import foodorder from "../../Assets/Images/FoodOrder.png"
+import StudyQuiz from "../../Assets/Images/StudyQuiz.png";
+import FootApp from "../../Assets/Images/FootApp.png";
+import TNDB from "../../Assets/Images/TNDB.png";
+import age from "../../Assets/Images/age.jpg";
+import Eduplatform from "../../Assets/Images/Eduplatform.png";
+import Hotel from "../../Assets/Images/Hotel.png";
+import fitbox from "../../Assets/Images/fitbox.jpeg";
+import foodorder from "../../Assets/Images/FoodOrder.png";
+import analyse from "../../Assets/Images/analyse.jpg";
 
 
 function Projects() {
@@ -30,7 +31,7 @@ function Projects() {
               isBlog={false}
               title="Fitbox"
               description="FitBox is an intelligent fitness and nutrition coaching application powered by AI. It provides personalized workout plans, nutrition advice, and conversational coaching using advanced language models. The system combines physiological calculations, data analysis, and machine learning to deliver science-based fitness recommendations."
-              ghLink = "https://github.com/hamrouniraed07/Fitbox"
+              ghLink="https://github.com/hamrouniraed07/Fitbox"
             />
           </Col>
           
@@ -40,7 +41,7 @@ function Projects() {
               isBlog={false}
               title="Study_Quiz"
               description="StudyPal is an intelligent, gamified learning platform that uses local AI (Ollama) to create personalized quiz experiences. Built with FastAPI backend and React frontend, it adapts to user performance, provides AI-generated feedback, and features a dynamic avatar system based on learning progress."
-              ghLink = "https://github.com/hamrouniraed07/Study_Quiz"
+              ghLink="https://github.com/hamrouniraed07/Study_Quiz"
             />
           </Col>
 
@@ -51,7 +52,6 @@ function Projects() {
               title="Football Team Management"
               description="A full-stack web application for managing football teams, built using the MEAN stack (MongoDB, Express.js, Angular, Node.js). This project allows users to view, add, update, and delete football teams, including details like players, coaches, trophies, and match statistics."
               ghLink="https://github.com/hamrouniraed07/Angular_Project"
-              
             />
           </Col>
 
@@ -62,7 +62,16 @@ function Projects() {
               title="Biological Age Estimation"
               description="This project aims to develop a regression model to predict a patient's biological age from dermatological data. The goal is to apply and master data preprocessing, modeling, and evaluation techniques for medical datasets"
               ghLink="https://github.com/hamrouniraed07/ML_Project"
-                            
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={analyse}
+              isBlog={false}
+              title="Statistical data exploration and visualization with R and Quarto"
+              description="Comprehensive statistical analysis of anonymized circumcision data using R and Quarto. The project delivers an interactive analytical report and a dynamic web presentation (RevealJS) exploring trends, surgical practices, and associated factors."
+              demoLink="https://r-presentation.vercel.app/#sec-intro"
             />
           </Col>
 
@@ -72,8 +81,7 @@ function Projects() {
               isBlog={false}
               title="Hotel Microservices Project"
               description="This project is a hotel booking application designed with a microservices architecture. The services are exposed via gRPC, GraphQL, REST, and Kafka, and orchestrated using Docker and Docker Compose."
-              ghLink="hhttps://github.com/hamrouniraed07/Hotel_microservices"
-              
+              ghLink="https://github.com/hamrouniraed07/Hotel_microservices"
             />
           </Col>
 
@@ -82,9 +90,8 @@ function Projects() {
               imgPath={TNDB}
               isBlog={false}
               title="TNDB - The Movie Database"
-              description="TNDB is a full-stack web application designed for managing and exploring a movie database. full-stack web application designed for managing and exploring a movie database. It allows users to sign up, sign in, browse movies by categories, view movie details, add movies to watchlists and favorites, rate movies, and leave reviews. The application features a user-friendly frontend built with vanilla HTML, CSS, and JavaScript, and a robust backend API powered by Node.js, Express, and MongoDB."
+              description="TNDB is a full-stack web application designed for managing and exploring a movie database. It allows users to sign up, sign in, browse movies by categories, view movie details, add movies to watchlists and favorites, rate movies, and leave reviews. The application features a user-friendly frontend built with vanilla HTML, CSS, and JavaScript, and a robust backend API powered by Node.js, Express, and MongoDB."
               ghLink="https://github.com/hamrouniraed07/TNDB"
-              
             />
           </Col>
 
@@ -95,7 +102,6 @@ function Projects() {
               title="Eduplatform"
               description="EduPlatform is a full-featured e-learning application where students can discover courses, enroll, leave reviews, and manage their profile through a secure, responsive interface. The Express/MongoDB backend exposes JWT-protected REST APIs, while the React/Vite frontend consumes those services via a centralized authentication context. This monorepo bundles the entire MERN stack (backend + frontend) along with the configuration needed to develop, test, and ship the project quickly."
               ghLink="https://github.com/hamrouniraed07/EduPlatform_"
-              
             />
           </Col>
            <Col md={4} className="project-card">
@@ -105,7 +111,6 @@ function Projects() {
               title="Food Order App"
               description="FoodOrder est une application web complète de commande de repas développée avec le stack MERN (MongoDB, Express.js, React, Node.js). Inspirée d'UberEats, elle permet aux utilisateurs de commander des repas auprès de restaurants partenaires avec un système de gestion complet."
               ghLink="https://github.com/hamrouniraed07/FoodOrder"
-              
             />
           </Col>
 
