@@ -32,6 +32,7 @@ function Projects() {
               title="Fitbox"
               description="FitBox is an intelligent fitness and nutrition coaching application powered by AI. It provides personalized workout plans, nutrition advice, and conversational coaching using advanced language models. The system combines physiological calculations, data analysis, and machine learning to deliver science-based fitness recommendations."
               ghLink="https://github.com/hamrouniraed07/Fitbox"
+              demoLink="http://148.113.42.38:8501/"
             />
           </Col>
           
