@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import { FaUniversity, FaArrowRight } from "react-icons/fa";
-
 import isitcomLogo from "../../Assets/Images/isitcom.jpg";
 import PolyLogo from "../../Assets/Images/poly-tec.webp";
 
