@@ -11,6 +11,8 @@ import Hotel from "../../Assets/Images/Hotel.png";
 import fitbox from "../../Assets/Images/fitbox.jpeg";
 import foodorder from "../../Assets/Images/FoodOrder.png";
 import analyse from "../../Assets/Images/analyse.jpg";
+import rag from "../../Assets/Images/rag.jpg";
+import fraud from "../../Assets/Images/fraud.jpg";
 
 
 function Projects() {
@@ -25,6 +27,24 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+             <ProjectCard
+                  imgPath={rag}
+                 isBlog={false}
+                  title="RAG — Pediatric Circumcision"
+                   description="A Retrieval-Augmented Generation (RAG) system for querying peer-reviewed medical articles on pediatric circumcision. Built with LangChain, FAISS, HuggingFace embeddings, and a local Ollama LLM, the system runs بالكامل locally without APIs. It supports CLI, Streamlit UI, and evaluation pipelines for accurate, source-based medical answers."
+                     ghLink="https://github.com/hamrouniraed07/Pediatric_Circumnision_RAG"
+              />
+          </Col>
+            <Col md={4} className="project-card">
+  <ProjectCard
+    imgPath={fraud}
+    isBlog={false}
+    title="Credit Card Fraud Detection — MLOps"
+    description="A production-grade MLOps system for real-time credit card fraud detection. Built with ZenML pipelines, MLflow experiment tracking, Optuna optimization, and FastAPI serving. The platform includes Docker-based deployment, CI/CD automation, and a full monitoring stack with Prometheus & Grafana for scalable, high-performance inference."
+    ghLink="https://github.com/hamrouniraed07/fraud-detection-mlops"
+  />
+</Col>
            <Col md={4} className="project-card">
             <ProjectCard
               imgPath={fitbox}
