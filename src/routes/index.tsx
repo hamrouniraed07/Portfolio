@@ -16,6 +16,7 @@ import {
   GraduationCap,
   ExternalLink,
   Languages,
+  Instagram,
 } from "lucide-react";
 
 const Github = (p: React.SVGProps<SVGSVGElement>) => (
@@ -595,6 +596,11 @@ function Portfolio() {
 
           <div className="mt-8 flex justify-center gap-3">
             {[
+              {
+                icon: Instagram,
+                href: "https://www.instagram.com/hamrouni_raed07/",
+                label: "Instagram",
+              },
               { icon: Github, href: "https://github.com/hamrouniraed07", label: "GitHub" },
               {
                 icon: Linkedin,
