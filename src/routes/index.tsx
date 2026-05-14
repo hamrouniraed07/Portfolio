@@ -486,7 +486,6 @@ function Portfolio() {
                 >
                   <Sparkles className="size-5 text-background" />
                 </div>
-                <ExternalLink className="size-4 text-muted-foreground opacity-0 group-hover:opacity-100 transition" />
               </div>
               <h3 className="text-lg font-bold mb-2">{p.title}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed mb-4 min-h-[3rem]">
