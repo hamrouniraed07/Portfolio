@@ -223,7 +223,7 @@ function Portfolio() {
             className="mt-10 flex flex-wrap items-center justify-center gap-3"
           >
             <a
-              href="src/Cv_Raed_Hamrouni.pdf"
+              href="/Cv_Raed_Hamrouni.pdf"
               download
               className="group inline-flex items-center gap-2 px-6 py-3 rounded-full text-primary-foreground font-medium text-sm hover-glow"
               style={{ background: "var(--grad-primary)" }}
