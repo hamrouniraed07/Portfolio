@@ -125,17 +125,22 @@ const __iconNode$b = [
 ];
 const Database = createLucideIcon("database", __iconNode$b);
 const __iconNode$a = [
-  ["path", { d: "M12 15V3", key: "m9g1x1" }],
-  ["path", { d: "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4", key: "ih7n3h" }],
-  ["path", { d: "m7 10 5 5 5-5", key: "brsn70" }]
-];
-const Download = createLucideIcon("download", __iconNode$a);
-const __iconNode$9 = [
   ["path", { d: "M15 3h6v6", key: "1q9fwt" }],
   ["path", { d: "M10 14 21 3", key: "gplh6r" }],
   ["path", { d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6", key: "a6xqqp" }]
 ];
-const ExternalLink = createLucideIcon("external-link", __iconNode$9);
+const ExternalLink = createLucideIcon("external-link", __iconNode$a);
+const __iconNode$9 = [
+  [
+    "path",
+    {
+      d: "M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0",
+      key: "1nclc0"
+    }
+  ],
+  ["circle", { cx: "12", cy: "12", r: "3", key: "1v7zrd" }]
+];
+const Eye = createLucideIcon("eye", __iconNode$9);
 const __iconNode$8 = [
   [
     "path",
@@ -225,8 +230,8 @@ const X = createLucideIcon("x", __iconNode);
 export {
   ArrowRight as A,
   Brain as B,
-  Download as D,
-  ExternalLink as E,
+  Database as D,
+  Eye as E,
   GraduationCap as G,
   Languages as L,
   MapPin as M,
@@ -235,9 +240,9 @@ export {
   X,
   Mail as a,
   ArrowDown as b,
-  Database as c,
-  Bot as d,
-  Activity as e,
+  Bot as c,
+  Activity as d,
+  ExternalLink as e,
   MessageCircle as f,
   Send as g
 };

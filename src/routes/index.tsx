@@ -16,7 +16,7 @@ import {
   GraduationCap,
   ExternalLink,
   Languages,
-  Instagram,
+  Eye,
 } from "lucide-react";
 
 const Github = (p: React.SVGProps<SVGSVGElement>) => (
@@ -27,6 +27,13 @@ const Github = (p: React.SVGProps<SVGSVGElement>) => (
 const Linkedin = (p: React.SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 24 24" fill="currentColor" {...p}>
     <path d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2zM8 19H5V9h3v10zM6.5 7.7A1.7 1.7 0 1 1 6.5 4.3a1.7 1.7 0 0 1 0 3.4zM19 19h-3v-5c0-1.2-.4-2-1.5-2-.8 0-1.3.6-1.5 1.1-.1.2-.1.5-.1.7V19h-3V9h3v1.3a3 3 0 0 1 2.7-1.5c2 0 3.4 1.3 3.4 4V19z" />
+  </svg>
+);
+const Instagram = (p: React.SVGProps<SVGSVGElement>) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" {...p}>
+    <rect x="3" y="3" width="18" height="18" rx="5" />
+    <circle cx="12" cy="12" r="3.5" />
+    <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
   </svg>
 );
 import raedImg from "@/assets/raed.png";
@@ -231,7 +238,7 @@ function Portfolio() {
               className="group inline-flex items-center gap-2 px-6 py-3 rounded-full text-primary-foreground font-medium text-sm hover-glow"
               style={{ background: "var(--grad-primary)" }}
             >
-              <Download className="size-4" /> {t.hero_cv}
+              <Eye className="size-4" /> {t.hero_cv}
             </a>
             <a
               href="#contact"

@@ -1,7 +1,7 @@
 import { r as reactExports, j as jsxRuntimeExports } from "../_libs/react.mjs";
-import { r as raedImg } from "./router-CYJvfZ5z.mjs";
+import { r as raedImg } from "./router-C57DchFi.mjs";
 import { u as useScroll, a as useSpring, m as motion, A as AnimatePresence } from "../_libs/framer-motion.mjs";
-import { L as Languages, M as MapPin, D as Download, A as ArrowRight, a as Mail, b as ArrowDown, G as GraduationCap, S as Sparkles, c as Database, B as Brain, P as Plug, d as Bot, e as Activity, E as ExternalLink, X, f as MessageCircle, g as Send } from "../_libs/lucide-react.mjs";
+import { L as Languages, M as MapPin, E as Eye, A as ArrowRight, a as Mail, b as ArrowDown, G as GraduationCap, S as Sparkles, D as Database, B as Brain, P as Plug, c as Bot, d as Activity, e as ExternalLink, X, f as MessageCircle, g as Send } from "../_libs/lucide-react.mjs";
 import "../_libs/tanstack__query-core.mjs";
 import "../_libs/tanstack__react-query.mjs";
 import "../_libs/tanstack__react-router.mjs";
@@ -704,6 +704,11 @@ function Chatbot({ lang }) {
 }
 const Github = (p) => /* @__PURE__ */ jsxRuntimeExports.jsx("svg", { viewBox: "0 0 24 24", fill: "currentColor", ...p, children: /* @__PURE__ */ jsxRuntimeExports.jsx("path", { d: "M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.3-3.2-.2-.4-.6-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.7 1.6.2 2.8.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3" }) });
 const Linkedin = (p) => /* @__PURE__ */ jsxRuntimeExports.jsx("svg", { viewBox: "0 0 24 24", fill: "currentColor", ...p, children: /* @__PURE__ */ jsxRuntimeExports.jsx("path", { d: "M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2zM8 19H5V9h3v10zM6.5 7.7A1.7 1.7 0 1 1 6.5 4.3a1.7 1.7 0 0 1 0 3.4zM19 19h-3v-5c0-1.2-.4-2-1.5-2-.8 0-1.3.6-1.5 1.1-.1.2-.1.5-.1.7V19h-3V9h3v1.3a3 3 0 0 1 2.7-1.5c2 0 3.4 1.3 3.4 4V19z" }) });
+const Instagram = (p) => /* @__PURE__ */ jsxRuntimeExports.jsxs("svg", { viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: "1.8", ...p, children: [
+  /* @__PURE__ */ jsxRuntimeExports.jsx("rect", { x: "3", y: "3", width: "18", height: "18", rx: "5" }),
+  /* @__PURE__ */ jsxRuntimeExports.jsx("circle", { cx: "12", cy: "12", r: "3.5" }),
+  /* @__PURE__ */ jsxRuntimeExports.jsx("circle", { cx: "17.5", cy: "6.5", r: "1", fill: "currentColor", stroke: "none" })
+] });
 const PIPELINE_ICONS = [Sparkles, Database, Brain, Plug, Bot, Activity, ArrowRight];
 const FULLSTACK_PIPELINE_ICONS = [Sparkles, Bot, Database, Plug, ArrowRight, Activity, ArrowRight];
 function Portfolio() {
@@ -823,7 +828,7 @@ function Portfolio() {
           /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: cvPdf, target: "_blank", rel: "noopener noreferrer", className: "group inline-flex items-center gap-2 px-6 py-3 rounded-full text-primary-foreground font-medium text-sm hover-glow", style: {
             background: "var(--grad-primary)"
           }, children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(Download, { className: "size-4" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Eye, { className: "size-4" }),
             " ",
             t.hero_cv
           ] }),
@@ -1080,6 +1085,10 @@ function Portfolio() {
           /* @__PURE__ */ jsxRuntimeExports.jsx(ArrowRight, { className: "size-4 transition-transform group-hover:translate-x-1 rtl:group-hover:-translate-x-1 rtl:rotate-180" })
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-8 flex justify-center gap-3", children: [{
+          icon: Instagram,
+          href: "https://www.instagram.com/hamrouni_raed07/",
+          label: "Instagram"
+        }, {
           icon: Github,
           href: "https://github.com/hamrouniraed07",
           label: "GitHub"
