@@ -225,7 +225,8 @@ function Portfolio() {
           >
             <a
               href={cvPdf}
-              download
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 px-6 py-3 rounded-full text-primary-foreground font-medium text-sm hover-glow"
               style={{ background: "var(--grad-primary)" }}
             >
