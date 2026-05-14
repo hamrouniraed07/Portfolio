@@ -1,8 +1,19 @@
-import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+import { defineConfig } from "vite";
+import { tanstackStart } from "@tanstack/react-start/plugin/vite";
+import { nitro } from "nitro/vite";
+import viteReact from "@vitejs/plugin-react";
+import tsconfigPaths from "vite-tsconfig-paths";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  tanstackStart: {
-    server: { entry: "server" },
-    ssr: false,
-  },
+  plugins: [
+    tanstackStart({
+      server: { entry: "src/server.ts" },
+      ssr: false,
+    }),
+    nitro(),
+    viteReact(),
+    tailwindcss(),
+    tsconfigPaths(),
+  ],
 });
