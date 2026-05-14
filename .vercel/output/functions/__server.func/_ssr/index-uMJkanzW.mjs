@@ -1,5 +1,5 @@
 import { r as reactExports, j as jsxRuntimeExports } from "../_libs/react.mjs";
-import { r as raedImg } from "./router-KFmKX7FX.mjs";
+import { r as raedImg } from "./router-CYJvfZ5z.mjs";
 import { u as useScroll, a as useSpring, m as motion, A as AnimatePresence } from "../_libs/framer-motion.mjs";
 import { L as Languages, M as MapPin, D as Download, A as ArrowRight, a as Mail, b as ArrowDown, G as GraduationCap, S as Sparkles, c as Database, B as Brain, P as Plug, d as Bot, e as Activity, E as ExternalLink, X, f as MessageCircle, g as Send } from "../_libs/lucide-react.mjs";
 import "../_libs/tanstack__query-core.mjs";
@@ -20,6 +20,7 @@ import "stream";
 import "../_libs/isbot.mjs";
 import "../_libs/motion-dom.mjs";
 import "../_libs/motion-utils.mjs";
+const cvPdf = "/assets/Cv_Raed_Hamrouni-C7sGoIbY.pdf";
 function CursorGlow() {
   const [pos, setPos] = reactExports.useState({ x: -100, y: -100 });
   const [hover, setHover] = reactExports.useState(false);
@@ -167,7 +168,7 @@ const T = {
     hero_name: "Raed Mohamed Amine Hamrouni",
     hero_subtitle: "I don't just use AI I engineer it into production.",
     hero_location: "Sousse, Tunisia",
-    hero_cv: "Download CV",
+    hero_cv: "Resume",
     hero_connect: "Let's Connect",
     roles: ["AI Engineer", "LLM Builder", "Fullstack Engineer", "MLOps Practitioner"],
     about_title: "About",
@@ -209,7 +210,7 @@ const T = {
     hero_name: "Raed Hamrouni",
     hero_subtitle: "Je n'utilise pas l'IA — je l'ingénie pour la production.",
     hero_location: "Sousse, Tunisie",
-    hero_cv: "Télécharger CV",
+    hero_cv: "Consulter CV",
     hero_connect: "Me contacter",
     roles: ["Ingénieur IA", "Bâtisseur de LLM", "Ingénieur Fullstack", "Praticien MLOps"],
     about_title: "À propos",
@@ -251,7 +252,7 @@ const T = {
     hero_name: "رائد الحمروني",
     hero_subtitle: "لا أستخدم الذكاء الاصطناعي فحسب — بل أهندسه ليصل إلى الإنتاج.",
     hero_location: "سوسة، تونس",
-    hero_cv: "تحميل السيرة",
+    hero_cv: "السيرة الذاتية",
     hero_connect: "تواصل معي",
     roles: ["مهندس ذكاء اصطناعي", "باني نماذج LLM", "مهندس Fullstack", "ممارس MLOps"],
     about_title: "نبذة",
@@ -819,7 +820,7 @@ function Portfolio() {
           delay: 0.9,
           duration: 0.8
         }, className: "mt-10 flex flex-wrap items-center justify-center gap-3", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: "src/Cv_Raed_Hamrouni.pdf", download: true, className: "group inline-flex items-center gap-2 px-6 py-3 rounded-full text-primary-foreground font-medium text-sm hover-glow", style: {
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("a", { href: cvPdf, target: "_blank", rel: "noopener noreferrer", className: "group inline-flex items-center gap-2 px-6 py-3 rounded-full text-primary-foreground font-medium text-sm hover-glow", style: {
             background: "var(--grad-primary)"
           }, children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx(Download, { className: "size-4" }),
