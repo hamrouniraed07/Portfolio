@@ -11,7 +11,7 @@ export default defineConfig({
       server: { entry: "src/server.ts" },
       ssr: false,
     }),
-    nitro(),
+    nitro({ preset: "vercel" }),
     viteReact(),
     tailwindcss(),
     tsconfigPaths(),
