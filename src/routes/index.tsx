@@ -297,8 +297,21 @@ function Portfolio() {
               <GraduationCap className="size-4" /> {t.edu_title}
             </h3>
             {[
-              { school: t.edu1_school as string, degree: t.edu1_deg as string },
-              { school: t.edu2_school as string, degree: t.edu2_deg as string },
+              {
+                school: t.edu1_school as string,
+                degree: t.edu1_deg as string,
+                date: t.edu1_date as string,
+              },
+              {
+                school: t.edu2_school as string,
+                degree: t.edu2_deg as string,
+                date: t.edu2_date as string,
+              },
+              {
+                school: t.edu3_school as string,
+                degree: t.edu3_deg as string,
+                date: t.edu3_date as string,
+              },
             ].map((e, i) => (
               <motion.div
                 key={i}
@@ -310,6 +323,7 @@ function Portfolio() {
               >
                 <div className="font-semibold">{e.school}</div>
                 <div className="text-sm text-muted-foreground mt-1">{e.degree}</div>
+                <div className="text-xs font-mono text-cyan mt-2">{e.date}</div>
               </motion.div>
             ))}
           </div>
