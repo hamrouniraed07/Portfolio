@@ -65,7 +65,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "Raed Hamrouni — AI & Fullstack Engineer" },
       {
         property: "og:description",
-        content: "I don't just use AI — I engineer it into production.",
+        content: "I don't just use AI. I engineer it into production.",
       },
       { property: "og:type", content: "website" },
     ],
