@@ -144,6 +144,22 @@ export const T: Record<Lang, Dict> = {
 
 export const EXPERIENCES = [
   {
+    company: "Medinfotec",
+    role: {
+      en: "FullStack AI Engineer",
+      fr: "Ingénieur IA Full-Stack",
+      ar: "مهندس ذكاء اصطناعي Full-Stack",
+    },
+    period: "Jul 2026 – Present",
+    desc: {
+      en: "Building agent_platform, a multi-tenant AI agent platform to configure and publish LLM chat and voice agents. Agent workflows with LangGraph and LiteLLM behind FastAPI and a Next.js dashboard, plus real-time voice agents on self-hosted LiveKit + SIP (ElevenLabs Realtime, Gemini Live), in an international English-speaking team.",
+      fr: "Développement d'agent_platform, une plateforme multi-tenant d'agents IA pour configurer et publier des agents LLM de chat et de voix. Workflows d'agents avec LangGraph et LiteLLM derrière FastAPI et un dashboard Next.js, ainsi que des agents vocaux temps réel sur LiveKit + SIP auto-hébergé (ElevenLabs Realtime, Gemini Live), au sein d'une équipe internationale anglophone.",
+      ar: "بناء agent_platform، منصة وكلاء ذكاء اصطناعي متعددة المستأجرين لإعداد ونشر وكلاء محادثة وصوت قائمين على LLM. سير عمل الوكلاء بـ LangGraph و LiteLLM خلف FastAPI ولوحة تحكم Next.js، إضافة إلى وكلاء صوتيين في الوقت الفعلي على LiveKit + SIP مستضاف ذاتيًا (ElevenLabs Realtime وGemini Live)، ضمن فريق دولي ناطق بالإنجليزية.",
+    },
+    tags: ["LangGraph", "LiteLLM", "FastAPI", "Next.js", "LiveKit", "Docker"],
+  },
+
+  {
     company: "ClassQuiz",
     role: {
       en: "AI Software Engineer Intern",
@@ -402,7 +418,7 @@ export function chatbotReply(question: string, lang: Lang): string {
         "He's strong in AI/LLM (Gemini, Llama, Claude, LangChain, LangGraph, RAG, LoRA), MLOps (ZenML, MLflow, Prometheus, Docker, Kubernetes), backend (FastAPI, Node.js, gRPC, Kafka, GraphQL), frontend (React, TypeScript, Tailwind, Framer Motion), and data science (TensorFlow, PyTorch, Scikit-learn).",
 
       experience:
-        "3 internships: ClassQuiz (AI Engineer, 2026), ARSII (Data Science, 2025 — postoperative complication prediction), and VIVIA (Software Developer, 2023 — CRM module).",
+        "Currently FullStack AI Engineer at Medinfotec (since Jul 2026, building agent_platform and real-time voice agents). Previous internships: ClassQuiz (AI Engineer, 2026), ARSII (Data Science, 2025 — postoperative complication prediction), and VIVIA (Software Developer, 2023 — CRM module).",
 
       education:
         "Engineering degree in AI & Data Science from the Polytechnic School of Sousse, plus a Master's in Web Services & Multimedia from ISITCOM.",
@@ -429,7 +445,7 @@ export function chatbotReply(question: string, lang: Lang): string {
         "Solide en IA/LLM (Gemini, Llama, LangChain, RAG, LoRA), MLOps (ZenML, MLflow, Docker, Kubernetes), backend (FastAPI, Node.js, gRPC, Kafka, GraphQL), frontend (React, TypeScript, Tailwind, Framer Motion) et data science.",
 
       experience:
-        "3 stages : ClassQuiz (Ingénieur IA, 2026), ARSII (Data Science, 2025 — prédiction des complications postopératoires), VIVIA (Développement logiciel, 2023 — module CRM).",
+        "Actuellement Ingénieur IA Full-Stack chez Medinfotec (depuis juil. 2026, agent_platform et agents vocaux temps réel). Stages précédents : ClassQuiz (Ingénieur IA, 2026), ARSII (Data Science, 2025 — prédiction des complications postopératoires), VIVIA (Développement logiciel, 2023 — module CRM).",
 
       education:
         "Diplôme d’ingénieur en IA & Data Science (École Polytechnique de Sousse) et Master en Services Web & Multimédia (ISITCOM).",
@@ -453,7 +469,7 @@ export function chatbotReply(question: string, lang: Lang): string {
         "خبرة قوية في LLM وMLOps وBackend (FastAPI وNode.js وgRPC وKafka) وFrontend (React وTypeScript وTailwind) وعلم البيانات.",
 
       experience:
-        "3 تربصات: ClassQuiz (مهندس ذكاء اصطناعي 2026)، ARSII (علم البيانات 2025)، VIVIA (تطوير برمجيات 2023).",
+        "يعمل حاليًا مهندس ذكاء اصطناعي Full-Stack في Medinfotec (منذ جويلية 2026). تربصات سابقة: ClassQuiz (مهندس ذكاء اصطناعي 2026)، ARSII (علم البيانات 2025)، VIVIA (تطوير برمجيات 2023).",
 
       education:
         "مهندس في الذكاء الاصطناعي وعلوم البيانات من المدرسة العليا بسوسة، وماجستير في خدمات الويب والوسائط المتعددة من ISITCOM.",
